@@ -29,13 +29,13 @@
 }
 .textBox{
          position: absolute;
-         background-color: transparent;
-            top: 180px;
-            left: 30px;
-            width: 1600px;
-            height: 800px;
+
+            top: 350px;
+            left: 300px;
+            width: 1000px;
+            height: 400px;
             opacity: 0.9;
-            border: 5px solid black;
+
   }
 
 .textBox img {
@@ -46,7 +46,7 @@
 }
 .mingzi{
     position: absolute;
-    top: 520px;
-    left: 420px;
+    top: 550px;
+    left: 480px;
 
 }
