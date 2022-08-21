@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.background__image{
+    background-image: url(../image/背景图（可用于成就、存档等页面）/1.png);
+    width: 1520px;
+    height: 765px;
+
+}
+
+.box{
+    width: auto;
+    
+}
+.cun{
+    width: 150px;
+    height: 150px;
+   position: absolute;
+     top: 0;
+    border: 3px solid black;
+}
+.cun img {
+    width: 100%;
+    height: 100%;
+
+}
+.textBox{
+         position: absolute;
+         background-color: transparent;
+            top: 180px;
+            left: 30px;
+            width: 1600px;
+            height: 800px;
+            opacity: 0.9;
+            border: 5px solid black;
+  }
+
+.textBox img {
+
+    width: 100%;
+    height: 100%;
+
+}
+.mingzi{
+    position: absolute;
+    top: 520px;
+    left: 420px;
+
+}
