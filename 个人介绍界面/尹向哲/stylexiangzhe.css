@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background: #000000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar__item {
+    height: 80px;
+}
+.navbar__links {
+    color: rgb(254, 254, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 150px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+.backtogame__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline-width: 10px;
+    outline: 5px;
+    outline-color: #fff;
+    border-radius: 10px;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover{
+    color: #833ab4;
+    transition: all 0.3s ease;
+}
+    /*body*/
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    height: 100%;
+    padding: 5rem 0 3rem 0;
+}
+.about__container{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.table__first{
+    justify-content: center;
+    align-items: center;
+}
+
+.table__text{
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+   
+
+}
+.menu {
+    display: flex;
+    background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.menu__container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu__bar{
+    
+    display: flex;
+    flex-direction:row ;
+    gap: 4rem;
+    list-style: none;
+    text-decoration: none;
+
+}
+.menu__link{
+   
+    background-color:#000000;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.menu__button{
+    text-decoration: none;
+    font-weight: bold;
+    color:  #fff;
+}
+
+.end{
+    background-color: #fff;
+    padding: 1rem 0  0.5rem 5rem;
+    height: 100%;
+}

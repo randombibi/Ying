@@ -1,0 +1,92 @@
+body{
+    background-image:url(../image/首页相关图像/开始界面背景.png)
+}
+
+fieldset{
+    height: 750px;
+    width: 800px;
+    background-color: grey;
+    opacity: 0.8;
+    border: none;
+    border-radius: 10px;
+    margin: 65px auto;
+}
+
+legend{
+    font-size: 60px;
+    font-family: 楷体;
+    border-radius:10px;
+    background-color: gray;
+    text-align: center;
+}
+
+img{
+    height:90px;
+    width: 90px;
+}
+
+.成就图标1{
+    position: absolute;
+    left: 470px;
+    top: 200px;
+}
+
+.成就图标2{
+    position: absolute;
+    left: 470px;
+    top: 350px;
+}
+
+.成就图标3{
+    position: absolute;
+    left: 470px;
+    top: 500px;
+}
+
+.成就图标4{
+    position: absolute;
+    left: 470px;
+    top: 650px;
+}
+
+p{
+    font-style: italic;
+    font-family: 微软雅黑;
+    font-size: 30px;
+}
+.成就内容1{
+    position: absolute;
+    left: 660px;
+    top: 195px;
+}
+
+.成就内容2{
+    position: absolute;
+    left: 660px;
+    top: 345px;
+}
+
+.成就内容3{
+    position: absolute;
+    left: 660px;
+    top: 495px;
+}
+
+.成就内容4{
+    position: absolute;
+    left: 660px;
+    top: 645px;
+}
+
+.返回{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 770px;
+    left: 960px;
+    font: 16px 黑体;
+    border-radius: 5px;
+    background: color grey;
+    text-align:center;
+    display:block
+}

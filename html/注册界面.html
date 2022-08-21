@@ -1,0 +1,50 @@
+<html>
+    <script>
+function testpwd()
+        {
+            if(document.getElementById("account number").value==''){
+            alert('用户名不能为空');
+        } 
+            else if(document.getElementById("password").value==''){
+                alert('密码不能为空');
+        } 
+            else if(document.getElementById("password").value!=document.getElementById("password1").value)
+        {
+                alert('两次密码不相同');
+        } 
+            else{
+                var account
+                var code
+                account=document.getElementById("account number").value
+                code=document.getElementById("password").value
+                localStorage.setItem('account',account)
+                localStorage.setItem('code',code)
+                document.location.href='登陆界面.html';            
+            }      
+        }
+    </script>
+    <head>
+        <title>注册界面</title>
+        <link rel="stylesheet"  type="text/css"  href="../css/注册界面.css">
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>注册</legend>
+                <p>账号：<br>
+                    <input type="text"  id="account number"  placeholder="请输入账号"  class="needinput">
+                </p>
+                <p>密码：<br>
+                    <input type="password"  id="password"  placeholder="请输入密码" class="needinput">
+                </p>
+                <p>重新输入密码：<br>
+                    <input type="password"  id="password1"  placeholder="请重新输入密码" class="needinput">
+                </p>
+                <p> <button type="button" onclick="testpwd();" value="注册" class="注册按钮">注册</button>
+                    <a href="../index.html"><button type="button" value="返回" class="返回">返回</button></a>
+                <p class="smtxt">已有帐户？点击<a href="./登陆界面.html">登录</a></p>
+            </fieldset>
+        </form>
+    </body>
+</html>

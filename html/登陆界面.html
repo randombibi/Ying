@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+        function testpwd()
+        {
+            if(document.getElementById("account number").value==''){
+            alert('用户名不能为空');
+        } 
+            else if(document.getElementById("password").value==''){
+                alert('密码不能为空');  
+        }   else if(document.getElementById("password").value!=localStorage.getItem('code')||document.getElementById("account number").value!=localStorage.getItem('account'))
+                {alert('用户名或密码不正确');}
+            else document.location.href='存档.html';
+        }
+    </script> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录界面</title>
+    <link rel="stylesheet"  type="text/css"  href="../css/登录界面.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>登录</legend>
+        <p>账号：<br>
+            <input type="text"  id="account number"  placeholder="请输入账号"  class="needinput">
+        </p>
+        <p>密码：<br>
+            <input type="password"  id="password"  placeholder="请输入密码" class="needinput">
+        </p>
+        <p> <button type="button" onclick="testpwd();" value="登录" class="登录按钮">登录</button>
+        <a href="../index.html"><button type="button" value="返回" class="返回">返回</button></a>
+        <p class="smtxt">还没有账户？点击<a href="./注册界面.html">注册</a></p>
+        </fieldset>
+    </form>
+</body>
+</html>

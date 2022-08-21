@@ -1,0 +1,35 @@
+body{
+    background-image: url(../image/首页相关图像/开始界面背景.png);
+}
+
+#anniu{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    
+    position: absolute;bottom: 0;left: 450px;
+    vertical-align: bottom;
+}
+#shezhi{
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/存档相关图像/存档按钮.png);
+   
+    position: absolute;right: 0;top: 0;
+}
+#pics{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#wenzi{
+  position:absolute;top: 150px;left: 250px;bottom: 850px;
+  width: 800px;
+  height: 300px;
+  
+}
+#jieshao{
+    text-indent: 2em;
+    text-align: center;
+    font-family: 楷体;
+}

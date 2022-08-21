@@ -1,0 +1,59 @@
+body{
+    background-image:url(../image/首页相关图像/开始界面背景.png)
+}
+
+.存档一{
+    position: absolute;
+    left:430px;
+    top: 182px;
+    font-size: 3em;
+    color: black;
+    background-color: rgb(125, 98, 182);
+    padding: 10px 20px;
+    opacity: 0.6;
+}
+
+.存档二{
+    position: absolute;
+    left:830px;
+    top: 182px;
+    font-size: 3em;
+    color: black;
+    background-color: rgb(125, 98, 182);
+    padding: 10px 20px;
+    opacity: 0.6;
+}
+
+.存档三{
+    position: absolute;
+    left:430px;
+    top: 382px;
+    font-size: 3em;
+    color: black;
+    background-color: rgb(125, 98, 182);
+    padding: 10px 20px;
+    opacity: 0.6;
+}
+
+.存档四{
+    position: absolute;
+    left:830px;
+    top: 382px;
+    font-size: 3em;
+    color: black;
+    background-color: rgb(125, 98, 182);
+    padding: 10px 20px;
+    opacity: 0.6;
+}
+
+.返回{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 580px;
+    left: 1000px;
+    font-family: 黑体;
+    font-size: 20px;
+    display:block;
+    border-radius: 5px;
+}
