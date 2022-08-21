@@ -1,0 +1,104 @@
+body{
+    background-image:url(../image/首页相关图像/开始界面背景.png)
+}
+.按键1{
+    position: absolute;
+    left: 180px;
+    top:200px;
+    font-size: 4em;
+    font-family:楷体;
+    font-weight: bold;
+    text-align: 170px 70px;
+    text-shadow: 1px 2px 3px gray;
+}
+.按键2{
+    position: absolute;
+    left: 180px;
+    top: 290px;
+    font-size: 4em;
+    font-family:楷体;
+    font-weight: bold;
+    text-align: 170px 70px;
+    text-shadow: 1px 2px 3px gray;
+}
+.按键3{
+    position: absolute;
+    left: 180px;
+    top: 380px;
+    font-size: 4em;
+    font-family:楷体;
+    font-weight: bold;
+    text-align: 170px 70px;
+    text-shadow: 1px 2px 3px gray;
+}
+.按键4{
+    position: absolute;
+    left: 180px;
+    top: 470px;
+    font-size: 4em;
+    font-family:楷体;
+    font-weight: bold;
+    text-align: 170px 70px;
+    text-shadow: 1px 2px 3px gray;
+}
+.按键5{
+    position: absolute;
+    left: 180px;
+    top: 560px;
+    font-size: 4em;
+    font-family:楷体;
+    font-weight: bold;
+    text-align: 170px 70px;
+    text-shadow: 1px 2px 3px gray;
+}
+.logo{
+    position: absolute;
+    right: 250px;
+    top: 70px;
+}
+                   
+.logo_image{
+    width:150px; 
+    height:150px;
+}
+a:link, a:visited, a:hover, a:active{color:black;text-decoration:none}
+
+.picture1{
+    height: 210px;
+    width: 370px;
+    position: absolute;
+    top: 195px;
+    left:15px;
+}
+
+.picture2{
+    height: 210px;
+    width: 370px;
+    position: absolute;
+    top: 285px;
+    left:15px;
+}
+
+.picture3{
+    height: 210px;
+    width: 370px;
+    position: absolute;
+    top: 375px;
+    left:15px;
+}
+
+.picture4{
+    height: 210px;
+    width: 370px;
+    position: absolute;
+    top: 465px;
+    left:15px;
+}
+
+.picture5{
+    height: 210px;
+    width: 370px;
+    position: absolute;
+    top: 555px;
+    left:15px;
+}
