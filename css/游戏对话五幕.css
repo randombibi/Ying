@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.background__image{
+    background-image: url(../image/背景图（可用于成就、存档等页面）/1.png);
+    width: 1520px;
+    height: 765px;
+
+}
+
+.box{
+    width: auto;
+    
+}
+.cun{
+    width: 150px;
+    height: 150px;
+   position: absolute;
+   right: 0;
+     top: 0;
+}
+
+
+
+
+.cun img {
+    width: 100%;
+    height: 100%;
+
+}
+.textBox__container{
+         position: absolute;
+
+            top: 570px;
+            left: 400px;
+            width: 800px;
+            height: 175px;
+            opacity: 0.9;
+
+  }
+
+.textBox__container img {
+
+    width: 100%;
+    height: 100%;
+
+}
+.mingzi__container {
+    padding: 7px 35px;
+    position: absolute;
+    top: 579px;
+    left: 475px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.text__container{
+    border: 5px solid black;
+    width: 425px;
+    height: 65px;
+    position: absolute;
+    top: 627px;
+    left: 420px;
+    background-color: rgba(255, 255, 255, 0.277);
+
+}
+
+.text {
+    margin: 3px;
+    position: absolute;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+
+
