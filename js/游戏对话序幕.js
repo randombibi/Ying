@@ -1,4 +1,4 @@
-var i = 0, k = 0, l = 0;
+var i = 0, k = -1, l = 0;
 let text = ["善万物之得时，感吾生之行休。已矣乎！御行宇内复几时，曷不委心任去留？胡为乎惶惶兮于何之？富贵非吾愿，帝乡不可期。",
     "什么狗屁玩意，完全看不懂啊，上三区的人天天就读这些破玩意啊，这封面画的是什么鬼东西啊",
     "《归去来兮辞并序》作者陶渊明，是距今4000年前的地球文明作品，此外，本次航行中您的一切行为都将会被记录，请注意您的言行",
@@ -48,23 +48,21 @@ function typingEffect() {
 
 }
 
-startTyping();
+// startTyping();
+// function startTyping() {
+//     addEventListener('click', typingEffect, typingName );
+    
+// }
+// function startTyping(){
 
-function startTyping(){
-
-    typingEffect();
-    typingName();
-}
+//     typingEffect();
+//     typingName();
+// }
 
 function typingName(){
     document.getElementById('mingzi').innerHTML = charName[k];
     
 }
-// if(charName[k] != charName[k-1]){
-//     document.getElementById('mingzi').innerHTML = charName[k];
-
-// }
-
 
 
 function remove() {
@@ -75,7 +73,7 @@ function remove() {
 
 function nextDialogue() {
     addEventListener('click', remove);
-
+        setInterval(nextDialogue, 3000);
 }
 
 nextDialogue();
