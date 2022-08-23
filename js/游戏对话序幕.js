@@ -48,16 +48,7 @@ function typingEffect() {
 
 }
 
-// startTyping();
-// function startTyping() {
-//     addEventListener('click', typingEffect, typingName );
-    
-// }
-// function startTyping(){
 
-//     typingEffect();
-//     typingName();
-// }
 
 function typingName(){
     document.getElementById('mingzi').innerHTML = charName[k];
@@ -73,7 +64,7 @@ function remove() {
 
 function nextDialogue() {
     addEventListener('click', remove);
-        setInterval(nextDialogue, 3000);
+        
 }
 
 nextDialogue();
