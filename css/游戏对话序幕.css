@@ -53,6 +53,8 @@
     position: absolute;
     top: 579px;
     left: 475px;
+    justify-content: center;
+    align-items: center;
 
 
 }
